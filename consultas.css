@@ -1,0 +1,100 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: "Avigea";
+  src: url("Avigea.eot?") format("eot"),
+       url("Avigea.woff") format("woff"),
+       url("Avigea.ttf") format("truetype"),
+       url("Avigea.svg#Avigea") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.cabecalho h1,
+.whatsapp-btn span {
+  font-family: "Avigea", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fdf6fa;
+  color: #6b2c6c;
+  padding: 0 16px;
+}
+
+.cabecalho {
+  text-align: center;
+  padding: 24px 0 8px;
+}
+
+.logo {
+  max-width: 50px;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.cabecalho h1 {
+  /*font-size: 24px;*/
+  font-weight: bold;
+  color: #91357e;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.card {
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-decoration: none;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.label {
+  background-color: #9c4d8d;
+  text-align: center;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.label span {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+footer.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.logo-footer {
+  max-width: 60px;
+}
+
+.btn-voltar {
+  background-color: #f3ddec;
+  color: #91357e;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
