@@ -76,7 +76,14 @@ h1 span {
   font-weight: bold;
   font-size: 18px;
   margin-top: 16px;
+
+  
 }
+.botao-whatsapp{animation: pulse 2s infinite;}
+  @keyframes pulse {
+    0%, 80%{transform: scale(1);}
+    25% {transform: scale(0.9)}
+  }
 
 .botao-whatsapp img {
   width: 24px;
